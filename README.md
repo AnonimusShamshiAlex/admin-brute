@@ -21,7 +21,7 @@
 
 ## 🚀 Установка
 
-```bash
+
 # Делаем исполняемым
 git clone https://github.com/AnonimusShamshiAlex/admin-brute
 
