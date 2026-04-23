@@ -30,7 +30,7 @@ cd admin-brute
 chmod +x admin-brute.py
 
 # Устанавливаем зависимости
-pip3 install requests
+pip install requests
 ```
 
 ## 📖 Использование
@@ -38,18 +38,18 @@ pip3 install requests
 ### Базовое сканирование (рекомендуется)
 
 ```bash
-python3 admin-brute.py https://target.com /path/to/wordlist.txt
+python admin-brute.py https://target.com /path/to/wordlist.txt
 ```
 
 **Пример:**
 ```bash
-python3 admin-brute.py https://test.com admin_1000top.txt
+python admin-brute.py https://test.com admin_1000top.txt
 ```
 
 ### Продвинутое сканирование (SPA)
 
 ```bash
-python3 admin-brute-spa.py
+python admin-brute-spa.py
 # Затем введите URL: https://habluz.base44.app
 ```
 
@@ -198,7 +198,7 @@ EOF
 chmod +x admin-brute.py
 
 echo "[+] Готово! Запустите:"
-echo "python3 admin-brute.py https://target.com wordlist.txt"
+echo "python admin-brute.py https://target.com wordlist.txt"
 ```
 
 ## Команды для терминала:
