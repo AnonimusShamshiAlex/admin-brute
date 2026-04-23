@@ -23,6 +23,8 @@
 
 ```bash
 # Делаем исполняемым
+git clone https://github.com/AnonimusShamshiAlex/admin-brute
+
 chmod +x admin-brute.py
 
 # Устанавливаем зависимости
